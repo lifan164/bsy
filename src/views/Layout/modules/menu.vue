@@ -54,7 +54,6 @@ export default {
     },
     //保存路由激活状态
     saveNavState(activePath,title){
-      // window.sessionStorage.setItem('activePath',activePath)
       this.$store.commit('set_activeNav',[{path:activePath,title}])
     }
   }
